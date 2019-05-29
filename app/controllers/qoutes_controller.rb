@@ -1,4 +1,4 @@
 class QoutesController < ApplicationController
 def index
-  end
+ @qoute = Qoute.order("random()").first
 end
