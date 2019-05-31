@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2019_05_29_174057) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "qoutes", force: :cascade do |t|
+  create_table "quotes", force: :cascade do |t|
     t.string "saying"
     t.string "author"
     t.datetime "created_at", null: false

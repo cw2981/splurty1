@@ -1,2 +1,2 @@
-class Qoute < ApplicationRecord
+class Quote < ApplicationRecord
 end

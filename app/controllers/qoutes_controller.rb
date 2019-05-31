@@ -1,7 +1,10 @@
-class QoutesController < ApplicationController
+class QuotesController < ApplicationController
 def index
- @qoute = Qoute.order("random()").first
+ @quote = Quote.order("random()").first
 end
 
+ def new
+  quote = quote.new
+ end
 end
  
