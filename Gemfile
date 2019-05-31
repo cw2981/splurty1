@@ -61,7 +61,12 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'jquery-rails'
+<<<<<<< HEAD
 gem 'popper_js', '~> 1.11.1'
+=======
+
+gem 'popper_js', '-> 1.11.1'
+>>>>>>> 0c4e51d3caf40c7ac5048e01b3bdf0cd89d3e3cc
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'simple_form'
 
@@ -69,3 +74,7 @@ gem 'simple_form'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
+<<<<<<< HEAD
+=======
+gem 'simple_form'
+>>>>>>> 0c4e51d3caf40c7ac5048e01b3bdf0cd89d3e3cc
