@@ -1,2 +1,2 @@
-module QoutesHelper
+module QuotesHelper
 end

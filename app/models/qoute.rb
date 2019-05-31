@@ -1,2 +1,0 @@
-class Qoute < ApplicationRecord
-end
