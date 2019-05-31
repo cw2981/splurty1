@@ -39,6 +39,21 @@
 
     <br class="clear">
 
+  <div class="container">
   <%= yield %>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <%= link_to "This isn't enough, I need more!", "#", class: 'next-qoute' %>
+        </div>
+        <div class="col-6 footer-blurp">
+          Completed by <a href="https://objective-edison-7e888c.netlify.com/">[Craig White]</a><br />
+          Want to build your own splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
